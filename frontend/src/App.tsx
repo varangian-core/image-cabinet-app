@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Layout } from './components/layout';
+import { FlexibleLayout } from './components/layout';
 import {
   Dashboard,
   Upload,
@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <Layout>
+    <FlexibleLayout defaultNavType="topbar">
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/upload" element={<Upload />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/cabinets" element={<FilingCabinets />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
-    </Layout>
+    </FlexibleLayout>
   );
 }
 
