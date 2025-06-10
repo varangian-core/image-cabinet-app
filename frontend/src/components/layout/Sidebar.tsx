@@ -29,7 +29,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { id: 'home', label: 'Dashboard', icon: Grid3x3, path: '/', color: 'cyan' },
-  { id: 'upload', label: 'Upload', icon: Upload, path: '/upload', color: 'pink' },
+  { id: 'upload', label: 'File Manager', icon: Upload, path: '/upload', color: 'pink' },
   { id: 'gallery', label: 'Gallery', icon: Images, path: '/gallery', color: 'yellow' },
   { id: 'classify', label: 'AI Classify', icon: Brain, path: '/classify', color: 'green' },
   { id: 'cabinets', label: 'Cabinets', icon: FolderOpen, path: '/cabinets', color: 'orange' },

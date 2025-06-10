@@ -48,11 +48,11 @@ const navItems: NavItem[] = [
   },
   { 
     id: 'upload', 
-    label: 'Upload', 
+    label: 'File Manager', 
     icon: Upload, 
     path: '/upload', 
     color: 'pink',
-    description: 'Add new images'
+    description: 'Manage your files'
   },
   { 
     id: 'gallery', 
